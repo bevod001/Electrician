@@ -83,7 +83,13 @@
             <img src="img/Без названия.jpg" style="width:100%; border-radius: 13%">
             <div id="bannertext" style="position:absolute; top:30%; width:100%; text-align:center; color:white;">
                 <!-- Этот блок будет отображаться на устройствах со средним и большим размером экрана -->
-                
+                <div class="hidden-xs lead">
+                    <h1>услуги профессионального электрика</h1>
+                </div>
+                <!-- Этот блок будет отображаться только на устройствах с маленьким экраном -->
+                <div class="hidden-sm hidden-md hidden-lg">
+                    <p class="lead">Услуги Профессионального электрика</p>
+                </div>
                 <!-- Кнопка "Консультация" -->
                 <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#exampleModal">
                     Консультация
@@ -94,11 +100,8 @@
                         <div class="modal-content">
                             <!--Содержимое модального окна-->
 
-                            <iframe style="height:610px; overflow:auto;" width="100%" marginwidth="0" marginheight="0"
-                                frameborder="0" src="https://formdesigner.ru/form/iframe/185444">
-                                <p><a
-                                        href="https://formdesigner.ru/form/view/185444">https://formdesigner.ru/form/view/185444</a>
-                                </p>
+                            <iframe style="height:610px; overflow:auto;" width="100%" marginwidth="0" marginheight="0" frameborder="0" src="https://formdesigner.ru/form/iframe/185444">
+                                <p><a href="https://formdesigner.ru/form/view/185444">https://formdesigner.ru/form/view/185444</a></p>
                             </iframe>
 
                         </div>
@@ -306,7 +309,7 @@
     <script src="libs/owl-carousel/owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
     <div id="form_185444_1"></div>
-
+   
 </body>
 
 </html>
